@@ -1,6 +1,17 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+/** Importing Extra Fonts **/
+@font-face {
+  font-family: "Dimbo";
+  src: url("../assets/fonts/Dimbo/Dimbo_Regular.ttf");
+}
+
+@font-face {
+  font-family: "Dimbo Italic";
+  src: url("../assets/fonts/Dimbo/Dimbo_Italic.ttf");
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -74,4 +85,16 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  .ion-color-coralred {
+    --ion-color-base: #ff3c38;
+    --ion-color-base-rgb: 255, 60, 56;
+    --ion-color-contrast: #ffffff;
+    --ion-color-contrast-rgb: 255, 255, 255;
+    --ion-color-shade: #e03531;
+    --ion-color-tint: #ff504c;
+  }
+  
+  /* Settins the default font as Lato */
+  --ion-font-family: "Dimbo";
 }
